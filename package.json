@@ -1,0 +1,29 @@
+{
+  "name": "is-mysql",
+  "version": "0.1.0",
+  "description": "Check if mysql is running",
+  "main": "index.js",
+  "scripts": {
+    "test": "grunt"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:charliedowler/is-mysql.git"
+  },
+  "keywords": [
+    "database",
+    "mongo"
+  ],
+  "dependencies": {
+    "q": "~1.0.1"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.2",
+    "grunt-simple-mocha": "^0.4.0"
+  },
+  "author": "charliedowler",
+  "license": "MIT",
+  "bin": {
+    "is-mongo": "./bin/is-mysql"
+  }
+}
