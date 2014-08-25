@@ -19,7 +19,7 @@ it('Should recognise mysql is running - callback', function(done) {
 });
 it('Should return running when run from bash', function(done) {
   exec('node ./bin/is-mysql', function(err, stdout, stderr) {
-    assert.equal(stdout, 'running\n');
+    assert.equal(stdout.indexOf('Up') > -1, true);
     done();
   });
 });

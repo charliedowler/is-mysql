@@ -41,7 +41,7 @@ $ npm install -g is-mysql
 
 ```sh
 $ is-mysql
-#=> running
+#=> Up
 ```
 
 
